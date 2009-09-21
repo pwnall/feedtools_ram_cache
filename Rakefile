@@ -14,7 +14,7 @@ Echoe.new('feedtools_ram_cache') do |p|
   p.email = 'victor@zergling.net'
   p.summary = "RAM-based cache for FeedTools."
   p.url = 'http://github.com/costan/feed_tools_ram_cache'
-  p.dependencies = ["feed_tools >=0.2.29"]
+  p.dependencies = ["feedtools >=0.2.29"]
   p.development_dependencies = ["echoe >=3.1.1", "flexmock >=0.8.6"]
   
   p.need_tar_gz = true

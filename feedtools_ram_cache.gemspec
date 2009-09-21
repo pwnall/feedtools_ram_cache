@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{feedtools_ram_cache}
-  s.version = "1.0"
+  s.version = "1.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Victor Costan"]
@@ -24,16 +24,16 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<feed_tools>, [">= 0.2.29"])
+      s.add_runtime_dependency(%q<feedtools>, [">= 0.2.29"])
       s.add_development_dependency(%q<echoe>, [">= 3.1.1"])
       s.add_development_dependency(%q<flexmock>, [">= 0.8.6"])
     else
-      s.add_dependency(%q<feed_tools>, [">= 0.2.29"])
+      s.add_dependency(%q<feedtools>, [">= 0.2.29"])
       s.add_dependency(%q<echoe>, [">= 3.1.1"])
       s.add_dependency(%q<flexmock>, [">= 0.8.6"])
     end
   else
-    s.add_dependency(%q<feed_tools>, [">= 0.2.29"])
+    s.add_dependency(%q<feedtools>, [">= 0.2.29"])
     s.add_dependency(%q<echoe>, [">= 3.1.1"])
     s.add_dependency(%q<flexmock>, [">= 0.8.6"])
   end
