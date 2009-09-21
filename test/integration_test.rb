@@ -11,7 +11,7 @@ require 'open-uri'
 
 class IntegrationTest < Test::Unit::TestCase
   def setup
-    FeedTools.configurations[:feed_cache] = 'RamFeedCache'
+    FeedTools.configurations[:feed_cache] = FeedTools::RamFeedCache
     FeedTools::RamFeedCache.clear
   end
   
@@ -27,13 +27,23 @@ class IntegrationTest < Test::Unit::TestCase
   
   def _test_cache(uri)
     feed, cached_feed = nil, nil
-    time = Benchmark.realtime { feed = FeedTools::Feed.open uri }
+    time = Benchmark.realtime do
+      feed = FeedTools::Feed.open(uri)
+      # NOTE: would like to include item instantiation, but it turns out parsing
+      #       takes forever and dominates the running time
+      # feed.items.each { |item| item.description } 
+    end
     
     # Make sure the cache's state is YAML-serializable
     yaml_state = FeedTools::RamFeedCache.state.to_yaml
     FeedTools::RamFeedCache.state = YAML.load yaml_state
     
-    cached_time = Benchmark.realtime { cached_feed = FeedTools::Feed.open uri }
+    cached_time = Benchmark.realtime do
+      cached_feed = FeedTools::Feed.open uri
+      # NOTE: would like to include item instantiation, but it turns out parsing
+      #       takes forever and dominates the running time
+      # cached_feed.items.each { |item| item.description } 
+    end
 
     assert !cached_feed.live?, 'cached_feed is live?'
     assert_operator cached_time, :< , time / 3,

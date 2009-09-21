@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{feedtools_ram_cache}
-  s.version = "1.0.1"
+  s.version = "1.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Victor Costan"]
-  s.date = %q{2009-09-20}
+  s.date = %q{2009-09-21}
   s.description = %q{RAM-based cache for FeedTools.}
   s.email = %q{victor@zergling.net}
   s.extra_rdoc_files = ["CHANGELOG", "LICENSE", "README.textile", "lib/feed_tools_ram_cache.rb"]

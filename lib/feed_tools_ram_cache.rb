@@ -40,6 +40,11 @@ class RamFeedCache
     @by_id, @by_href = nil, nil
     initialize_cache    
   end
+  
+  # The number of entries in the cache.
+  def self.length
+    @by_id.length
+  end
     
   # Fields required by FeedTools.
   #
@@ -69,6 +74,11 @@ class RamFeedCache
   def save
     self.class.write_item(self)
     true
+  end
+  
+  # Called by FeedTools.
+  def new_record?
+    @fields[:id].nil? ? true : false
   end
   
   # Called by FeedTools to initialize the cache.

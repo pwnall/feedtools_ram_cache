@@ -18,8 +18,11 @@ h2. Usage
 The gem does not interfere with the FeedTools API. To enable RAM-based caching,
 require the gem and configure FeedTools to use it:
 
-bc. require 'feed_tools_ram_cache'
-FeedTools.configurations[:feed_cache] = 'RamFeedCache' 
+bc. # Configure FeedTools to use the RAM-backed cache.
+require 'feed_tools_ram_cache'
+FeedTools.configurations[:feed_cache] = FeedTools::RamFeedCache
+
+In Rails, the code above can be placed in an initializer.
 
 h3. Serializing the Cache State
 

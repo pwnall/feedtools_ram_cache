@@ -50,6 +50,11 @@ class CacheTest < Test::Unit::TestCase
     _check_state item
   end
   
+  def test_length
+    assert_equal 4, Cache.length, 'Incorrect number of cache entries'
+  end
+   
+  
   def test_find_by_id
     assert_equal nil, Cache.find_by_id(0), 'ID 0 should not exist'
     assert_equal 'google', Cache.find_by_id(1).href
@@ -80,22 +85,21 @@ class CacheTest < Test::Unit::TestCase
   end
   
   def test_state_storing
-    #File.open('test/fixtures/unit.yml', 'w') do |f|
-    #  YAML.dump Cache.state, f
-    #end
     assert_equal @golden_state, Cache.state
   end
   
   def test_clear
     Cache.clear
-    assert_equal nil, Cache.find_by_id(1), 'Cache not deleted - found ID 1'
+    assert_equal 0, Cache.length, 'Cache not cleared -- found entries'
+    assert_equal nil, Cache.find_by_id(1), 'Cache not cleared - found ID 1'
     assert_equal nil, Cache.find_by_href('google'),
-                 'Cache not deleted - found HREF google'  
+                 'Cache not cleared - found HREF google'
   end
   
   def test_state_loading
     Cache.state = [{:id => 1}]
     
+    assert_equal 1, Cache.length, 'Cache state not reset, too many entries'
     assert_equal nil, Cache.find_by_id(2), 'Cache state not reset - found ID 2'
     assert_equal nil, Cache.find_by_href('google'),
                  'Cache state not reset - found google'
@@ -105,6 +109,7 @@ class CacheTest < Test::Unit::TestCase
     Cache.clear
     Cache.state = @golden_state
     
+    test_length
     test_find_by_id
     test_find_by_href
     test_equality
