@@ -1,0 +1,63 @@
+h1. RAM-backed cache for FeedTools
+
+FeedTools is a Ruby gem and Rails plug-in than parses both RSS and Atom feeds
+reliably. The library was intended to be used inside Rails, and comes with the
+entire kitchen sink, including a caching mechanism based on ActiveRecord and a
+database table.
+
+This gem implements a RAM-backed cache, so FeedTools clients can get the
+benefits of caching without taking a dependency on ActiveRecord. The RAM-backed
+cache's contents can be serialized using YAML.
+
+h2. Setup
+
+bc. rubygems install feedtools_ram_cache 
+
+h2. Usage
+
+The gem does not interfere with the FeedTools API. To enable RAM-based caching,
+require the gem and configure FeedTools to use it:
+
+bc. require 'feed_tools_ram_cache'
+FeedTools.configurations[:feed_cache] = 'RamFeedCache' 
+
+h3. Serializing the Cache State
+
+The cache state is a Ruby @Hash@ available via the class attribute @state@. It
+can be stored in a YAML file, or loaded from a file. This can come in handy for
+tests.
+
+bc. # Save the cache state to state.yml
+File.open('state.yml', 'w') { |f| YAML.dump FeedTools::RamFeedCache.state, f }
+# Load the cache state from state.yml
+FeedTools::RamFeedCache.state = YAML.load File.read('state.yml')
+ 
+h3. Clearing the Cache
+
+The RAM-backed cache does not implement a size limitation. However, the cache 
+can be cleared. This prevents it from growing indefinitely, and also provides a
+clean slate for testing.
+
+bc. FeedTools::RamFeedCache.clear
+
+h2. Naming Convention
+
+The naming scheme for this gem is confusing, but it is consistent with the
+naming of the FeedTools gem that it extends.
+
+The gem is named +feedtools_ram_cache+, but the name of the library to be
+required in Ruby is +feed_tools_ram_cache. This is consistent with FeedTools, 
+whose gem name is +feedtools+, providing the library +feed_tools+.
+
+h2. Requirements
+
+The gem depends on the +feedtools+ version used to test the code. If you need
+the RAM-based cache for an older version of +feedtools+, try to run the tests
+(via @rake test@) against your version of +feedtools+. If the tests pass, send
+me a pull request.
+
+h2. Contributions
+
+I wrote the RAM-backed cache to fulfill my very specific needs. I will not be
+adding features, but I will do my best to fix bugs. If you want a feature,
+please don't hesitate to fork the project and send me pull requests.

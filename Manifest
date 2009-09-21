@@ -1,0 +1,9 @@
+CHANGELOG
+LICENSE
+Manifest
+README.textile
+Rakefile
+lib/feed_tools_ram_cache.rb
+test/cache_test.rb
+test/fixtures/unit.yml
+test/integration_test.rb
