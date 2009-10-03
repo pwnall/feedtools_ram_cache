@@ -2,22 +2,22 @@
 
 Gem::Specification.new do |s|
   s.name = %q{feedtools_ram_cache}
-  s.version = "1.0.2"
+  s.version = "1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Victor Costan"]
-  s.date = %q{2009-09-21}
+  s.date = %q{2009-10-03}
   s.description = %q{RAM-based cache for FeedTools.}
   s.email = %q{victor@zergling.net}
   s.extra_rdoc_files = ["CHANGELOG", "LICENSE", "README.textile", "lib/feed_tools_ram_cache.rb"]
-  s.files = ["CHANGELOG", "LICENSE", "Manifest", "README.textile", "Rakefile", "lib/feed_tools_ram_cache.rb", "test/cache_test.rb", "test/fixtures/unit.yml", "test/integration_test.rb", "feedtools_ram_cache.gemspec"]
+  s.files = ["CHANGELOG", "LICENSE", "Manifest", "README.textile", "Rakefile", "lib/feed_tools_ram_cache.rb", "test/cache_test.rb", "test/fixtures/unit.yml", "test/integration_test.rb", "feedtools_ram_cache.gemspec", "test/offline_test.rb"]
   s.homepage = %q{http://github.com/costan/feed_tools_ram_cache}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Feedtools_ram_cache", "--main", "README.textile"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{zerglings}
   s.rubygems_version = %q{1.3.5}
   s.summary = %q{RAM-based cache for FeedTools.}
-  s.test_files = ["test/cache_test.rb", "test/integration_test.rb"]
+  s.test_files = ["test/cache_test.rb", "test/integration_test.rb", "test/offline_test.rb"]
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION

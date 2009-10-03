@@ -1,0 +1,624 @@
+--- 
+- :http_headers: |
+    --- 
+    connection: close
+    content-type: text/xml
+    date: Mon, 21 Sep 2009 08:20:13 GMT
+    server: Apache/2.0.50 (Unix) mod_ssl/2.0.50 OpenSSL/0.9.8 Zend Core/1 PHP/5.1.4 mod_apreq2-20051231/2.6.0 mod_perl/2.0.4 Perl/v5.8.5
+    transfer-encoding: chunked
+
+  :feed_data_type: xml
+  :feed_data: |+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <rdf:RDF
+       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+       xmlns="http://purl.org/rss/1.0/"
+       xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+       xmlns:dc="http://purl.org/dc/elements/1.1/"
+       xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+       xmlns:admin="http://webns.net/mvcb/"
+    >
+    
+      <channel rdf:about="http://events.mit.edu/">
+        <title>MIT Events Calendar</title>
+        <link>http://events.mit.edu/</link>
+        <description>MIT Events Calendar</description>
+        <dc:language>en-us</dc:language>
+        <dc:rights></dc:rights>
+    
+        <dc:date>2009-09-21T04:20:13-04:00</dc:date>
+        <dc:publisher>MIT</dc:publisher>
+        <dc:creator>events-admin@mit.edu</dc:creator>
+        <dc:subject>Events</dc:subject>
+        <syn:updatePeriod>daily</syn:updatePeriod>
+        <syn:updateFrequency>1</syn:updateFrequency>
+    
+        <syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+        <items>
+          <rdf:Seq>
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=9018856&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11284273&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11280023&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=10000342&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=9003981&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11280197&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11286425&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11287824&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=9003052&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=9015594&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=9016129&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=9016449&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=10549368&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=9018369&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11285665&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11280297&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=10749706&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=9017729&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=9017089&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=9016769&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=10748371&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11288293&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11288362&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11289263&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11289154&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11289412&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11283600&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11285762&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11283140&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=10748441&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11289425&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11289406&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11289194&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=10750076&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11283731&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11289333&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11289006&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11288836&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11283655&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11288426&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11289408&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11289372&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11289348&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11286600&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=10749861&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11283275&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11286599&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=10003454&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11289451&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11288949&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=11286677&amp;rss" />
+            <rdf:li rdf:resource="http://events.mit.edu/event.html?id=8228038&amp;rss" />
+          </rdf:Seq>
+        </items>
+        <image rdf:resource="http://events.mit.edu/graphics/logo_mit.gif" />
+      </channel>
+    
+      <image rdf:about="http://events.mit.edu/graphics/logo_mit.gif">
+        <title>MIT Events</title>
+        <url>http://events.mit.edu/graphics/logo_mit.gif</url>
+        <link>http://events.mit.edu/</link>
+      </image>
+    
+      <item rdf:about="http://events.mit.edu/event.html?id=9018856&amp;rss">
+        <title>6th Annual Student Mural Competition Winner</title>
+        <link>http://events.mit.edu/event.html?id=9018856&amp;rss</link>
+        <description>Installation of winning entry of the Sixth Annual Student Mural Competition. The winning work will be on view for one year.</description>
+        <dc:creator>Office of the Arts</dc:creator>
+    
+        <dc:date>2009-09-21T00:00:00-04:00</dc:date>
+        <dc:subject>exhibits, art/architecture/museum, arts/music/film</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11284273&amp;rss">
+        <title>MIT Mural Competition Entries Exhibit</title>
+        <link>http://events.mit.edu/event.html?id=11284273&amp;rss</link>
+        <description>Display of 14 entries from this annual competition. 
+    
+    The winning design, chosen by a jury of Stata Center residents, is reproduced as a high-quality wall-sized print and displayed for one year on Student Street in the Stata Center. 
+    
+    Opening Reception: July 6, 4-6pm</description>
+        <dc:creator>Office of the Arts, Student Art Association (SAA)</dc:creator>
+    
+        <dc:date>2009-09-21T00:00:00-04:00</dc:date>
+        <dc:subject>exhibits, visual arts</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11280023&amp;rss">
+        <title>David Van Tieghem, Kit Fitzgerald and John Sanborn&#39;s Ear to the Ground (1982).</title>
+        <link>http://events.mit.edu/event.html?id=11280023&amp;rss</link>
+        <description>Working as a collaborative team from 1976 until 1982, Kit Fitzgerald and John Sanborn created dynamic fusions of video art and television tactics. Their kinetic use of editing and post-production effects defined their energetic juxtapositions of visual, musical and conceptual themes. In &lt;I&gt;Ear to the Ground,&lt;/I&gt; Fitzgerald and Sanborn collaborated with acclaimed New York musician David Van Tieghem.  This 1982 video depicts Tieghem as he uses the city of Manhattan as his musical instrument, playing the surfaces of the sidewalks, buildings and phone booths with his drumsticks to elicit an ingenious range of percussive sounds.
+    
+    On view 24 hours/day.</description>
+        <dc:creator>List Visual Arts Center</dc:creator>
+    
+        <dc:date>2009-09-21T00:00:00-04:00</dc:date>
+        <dc:subject>films/movies, visual arts</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=10000342&amp;rss">
+        <title>Cary Wolinsky: Photographs from the Sandhouse Series and Threads Project.</title>
+        <link>http://events.mit.edu/event.html?id=10000342&amp;rss</link>
+        <description>Wolinsky is best known for his historical, scientific and cultural photographic essays published regularly in National Geographic magazine since 1977. 
+    
+    The exhibition space at the Center for Theoretical Physics, also features a major installation by Sol LeWitt and an exhibition of photographs by Ansel Adams.</description>
+        <dc:creator>Physics Department</dc:creator>
+    
+        <dc:date>2009-09-21T08:00:00-04:00</dc:date>
+        <dc:subject>exhibits</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=9003981&amp;rss">
+        <title>Stratton Student Center Reading Room Student Art Exhibit</title>
+        <link>http://events.mit.edu/event.html?id=9003981&amp;rss</link>
+        <description>The Student Art Exhibit in the Reading Room explores the theme of student life.  Most works are winners from the Student Art Contest in the Spring of 2007 sponsored by the Undergraduate Association.  Most of the works are digital photography prints plus one work of charcoal on paper.  Winners include Christina Soyeon Kang, Class of 2008; Zsuzsa Megyery, Class of 2009; Jennifer Moore, Class of 2009; Farre Nixon, Class of 2010; and Mike Yee, Class of 2008.  In addition, some work of Omari Stephens, Class of 2008, is included as well.  The artwork will be up for three years.</description>
+        <dc:creator>Campus Activities Complex</dc:creator>
+    
+        <dc:date>2009-09-21T09:00:00-04:00</dc:date>
+        <dc:subject>exhibits, visual arts</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11280197&amp;rss">
+        <title>BAM Photography Portfolio III</title>
+        <link>http://events.mit.edu/event.html?id=11280197&amp;rss</link>
+        <description>A photography portfolio of 12 works, originally a project of the Brooklyn Academy of Music,  that was purchased for the Student Loan Art Collection. Artists include Tina Barney, Tanyth Berkeley, Sophie Calle, James Casebere, Rineke Dijkstra, Candida H&amp;ouml;fer, Nicholas Nixon, Catherine Opie, Laurie Simmons, Lorna Simpson, Massimo Vitali, and James Welling.</description>
+        <dc:creator>List Visual Arts Center</dc:creator>
+    
+        <dc:date>2009-09-21T09:00:00-04:00</dc:date>
+        <dc:subject>exhibits</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11286425&amp;rss">
+        <title>OFF-CAMPUS:  Neri Oxman: At the Frontier of Ecological Design</title>
+        <link>http://events.mit.edu/event.html?id=11286425&amp;rss</link>
+        <description>Biology inspires Architecture graduate student Neri Oxman. Working at the interface of environmental design, science, and art, Oxman is inventing the future of energy-efficient building materials. A Presidential Fellow at MIT&#39;s Department of Architecture, Oxman is inventing novel ways to design, fabricate, assemble, and maintain building &quot;skins&quot; so they can respond to load, light, and heat simultaneously. Think buildings that breathe, sweat, and grow. &quot;I believe that, within two decades, buildings will be designed and constructed as biological tissues,&quot; says Oxman. 
+    
+    Daily hours may vary.
+    
+    Museum of Science &lt;A HREF=&quot;http://www.mos.org/visitor_info&quot;&gt;visitor info&lt;/A&gt;</description>
+        <dc:creator>Office of the Arts</dc:creator>
+    
+        <dc:date>2009-09-21T09:00:00-04:00</dc:date>
+        <dc:subject>exhibits, art/architecture/museum</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11287824&amp;rss">
+        <title>Wellness Class Registration</title>
+        <link>http://events.mit.edu/event.html?id=11287824&amp;rss</link>
+        <description>The Center for Health Promotion &amp; Wellness sponsors wellness classes, including gentle yoga, pilates, tai chi, fitness, and many others. Classes are offered in a friendly, welcoming atmosphere with knowledgeable instructors.  Classes are kept small and suitable for all levels of experience. Daytime and after work class schedules make it easy to commit to adding wellness into a busy day.  Most classes are offered throughout the year and run for five to 10 weeks. 
+    
+    Please visit our website for more information.</description>
+        <dc:creator>MIT Medical, Center for Health Promotion and Wellness</dc:creator>
+    
+        <dc:date>2009-09-21T09:00:00-04:00</dc:date>
+        <dc:subject>recreation</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=9003052&amp;rss">
+        <title>Morning Coffee</title>
+        <link>http://events.mit.edu/event.html?id=9003052&amp;rss</link>
+        <description>Morning Coffee</description>
+        <dc:creator>mit sloan mba student affairs</dc:creator>
+    
+        <dc:date>2009-09-21T09:30:00-04:00</dc:date>
+        <dc:subject>MIT events/clubs</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=9015594&amp;rss">
+        <title>Robots &amp; Beyond: Exploring Artificial Intelligence at MIT</title>
+        <link>http://events.mit.edu/event.html?id=9015594&amp;rss</link>
+        <description>A multimedia excursion into the world of artificial intelligence.</description>
+        <dc:creator>MIT Museum</dc:creator>
+    
+        <dc:date>2009-09-21T10:00:00-04:00</dc:date>
+        <dc:subject>exhibits</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=9016129&amp;rss">
+        <title>Holography: The Light Fantastic</title>
+        <link>http://events.mit.edu/event.html?id=9016129&amp;rss</link>
+        <description>Works drawn from the MIT Museum&#39;s holography collection.</description>
+        <dc:creator>MIT Museum</dc:creator>
+    
+        <dc:date>2009-09-21T10:00:00-04:00</dc:date>
+        <dc:subject>exhibits, new media arts</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=9016449&amp;rss">
+        <title>Gestural Engineering: The Sculpture of Arthur Ganson</title>
+        <link>http://events.mit.edu/event.html?id=9016449&amp;rss</link>
+        <description>Ingenious, philosophical, and witty kinetic sculptures.
+    
+    New! View Arthur Ganson&#39;s newest sculpture now on display in the Mark Epstein Innovation Gallery.</description>
+        <dc:creator>MIT Museum</dc:creator>
+    
+        <dc:date>2009-09-21T10:00:00-04:00</dc:date>
+        <dc:subject>exhibits, interactive media, arts/music/film</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=10549368&amp;rss">
+        <title>Felix Candela: Engineer, Builder, Structural Artist</title>
+        <link>http://events.mit.edu/event.html?id=10549368&amp;rss</link>
+        <description>This exhibition, organized by the Princeton University Art Museum and the Princeton University Department of Civil and Environmental Engineering, is devoted to the 20th century work of master builder and structural artist Felix Candela.</description>
+        <dc:creator>MIT Museum</dc:creator>
+    
+        <dc:date>2009-09-21T10:00:00-04:00</dc:date>
+        <dc:subject>exhibits, art/architecture/museum</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=9018369&amp;rss">
+        <title>Learning Lab: The Cell</title>
+        <link>http://events.mit.edu/event.html?id=9018369&amp;rss</link>
+        <description>MIT students helped to design this fun learning space which integrates LEGOs, videos, and hands-on activities that teach middle and high school students about how DNA makes proteins.</description>
+        <dc:creator>MIT Museum</dc:creator>
+    
+        <dc:date>2009-09-21T10:00:00-04:00</dc:date>
+        <dc:subject>exhibits, interactive media</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11285665&amp;rss">
+        <title>Undergraduate Admissions Office Information Session (Followed by Campus Tour)</title>
+        <link>http://events.mit.edu/event.html?id=11285665&amp;rss</link>
+        <description>Undergraduate Information Sessions are held Monday through Friday at 10:00am and 2:00pm excluding holidays in the Admissions Welcome Center in room 10-100. Following the Undergraduate Admissions Office Information Session is a Student Led Campus Tour. Groups over 10 people need to make special reservations.</description>
+        <dc:creator>Information Center, Admissions</dc:creator>
+    
+        <dc:date>2009-09-21T10:00:00-04:00</dc:date>
+        <dc:subject>campus tours</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11280297&amp;rss">
+        <title>Temporary Closing of the First Floor</title>
+        <link>http://events.mit.edu/event.html?id=11280297&amp;rss</link>
+        <description>The Mark Epstein Innovation Gallery and the MIT Museum store on the first floor will be closed temporarily for renovation and installation of new exhibits. Some store items will be available at the second floor reception desk. We look forward to re-opening the space for visitors on Saturday, September 26.</description>
+        <dc:creator>MIT Museum</dc:creator>
+    
+        <dc:date>2009-09-21T10:00:00-04:00</dc:date>
+        <dc:subject>art/architecture/museum, science/engineering</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=10749706&amp;rss">
+        <title>Exploring the Arctic Seafloor, Photographs by Chris Linder</title>
+        <link>http://events.mit.edu/event.html?id=10749706&amp;rss</link>
+        <description>Embark on an expedition to the Arctic seafloor. Through photography and other media, this exhibition portrays the expedition to learn more about Arctic undersea mountains. An international team led by the Woods Hole Oceanographic Institution plumbed the secrets of the sea, and were captured at work by photographer and MIT alum, Chris Linder.</description>
+        <dc:creator>MIT Museum</dc:creator>
+    
+        <dc:date>2009-09-21T10:00:00-04:00</dc:date>
+        <dc:subject>art/architecture/museum, visual arts, new media arts</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=9017729&amp;rss">
+        <title>Hybrid Illusions by Dr. Aude Oliva</title>
+        <link>http://events.mit.edu/event.html?id=9017729&amp;rss</link>
+        <description>These strange and beautiful images change as one moves closer or further away from them. View the stunning visual relationship between Albert Einstein and Marilyn Monroe.</description>
+        <dc:creator>MIT Museum</dc:creator>
+    
+        <dc:date>2009-09-21T10:00:00-04:00</dc:date>
+        <dc:subject>exhibits, arts/music/film</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=9017089&amp;rss">
+        <title>Deep Frontiers: Ocean Engineering at MIT</title>
+        <link>http://events.mit.edu/event.html?id=9017089&amp;rss</link>
+        <description>MIT&#39;s Center for Ocean Engineering in the Department of Mechanical Engineering devotes its human and technological resources to developing systems for the wise use and preservation of our ocean planet. Witness some findings of this leading-edge research.</description>
+        <dc:creator>MIT Museum</dc:creator>
+    
+        <dc:date>2009-09-21T10:00:00-04:00</dc:date>
+        <dc:subject>exhibits</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=9016769&amp;rss">
+        <title>Mind and Hand: The Making of MIT Scientists and Engineers</title>
+        <link>http://events.mit.edu/event.html?id=9016769&amp;rss</link>
+        <description>An historical exploration with artifacts and video reflecting 150 years of pathbreaking education and research at MIT.</description>
+        <dc:creator>MIT Museum</dc:creator>
+    
+        <dc:date>2009-09-21T10:00:00-04:00</dc:date>
+        <dc:subject>exhibits</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=10748371&amp;rss">
+        <title>Campus Tour</title>
+        <link>http://events.mit.edu/event.html?id=10748371&amp;rss</link>
+        <description>Student Led Campus Tours are approximately 90 minutes long and provide a general overview of the main campus. Please note that campus tours do not visit laboratories, living groups or buildings under construction. Groups over 12 people need to make special reservations. The Campus Tour begins in Lobby 7 (Main Entrance Lobby at 77 Massachusetts Ave)</description>
+        <dc:creator>Information Center</dc:creator>
+    
+        <dc:date>2009-09-21T11:00:00-04:00</dc:date>
+        <dc:subject>campus tours</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11288293&amp;rss">
+        <title>CENTERDISK: Interactive videodisk</title>
+        <link>http://events.mit.edu/event.html?id=11288293&amp;rss</link>
+        <description>Interactive videodisk produced by CAVS in 1982, structured in the form of a catalogue and containing a compilation of archival images, film, and video works from artists at CAVS. 
+    
+    Culled from a variety of media of 60 artists over a span of 15 years, artists include: Otto Piene, Muntadas, Charlotte Mooraman, Nam June Paik, Vin Grabill, Aldo Tambellini, Stan Van Der Beek, Paul Earls, Chris Janney, and including &lt;I&gt;The Medium is the Medium&lt;/I&gt; produced by WGHB in 1968. 
+    
+    &lt;I&gt;CENTERDISK&lt;/I&gt; will screen continuously with images of the original disk, archival material and a wall text by Rebecca Uchill. 
+    
+    On view Mon-Thurs, 11am-5pm,</description>
+        <dc:creator>Center for Advanced Visual Studies</dc:creator>
+    
+        <dc:date>2009-09-21T11:00:00-04:00</dc:date>
+        <dc:subject>films/movies, visual arts</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11288362&amp;rss">
+        <title>OFF-CAMPUS: Everything Trembles-- An Exhibition by CAVS Fellow Jane Philbrick</title>
+        <link>http://events.mit.edu/event.html?id=11288362&amp;rss</link>
+        <description>The exhibition takes as its departure the sketch, process, and change. Philbrick was invited by the Skissernas Museum to develop new work. This gave her the opportunity to work within the context of a place that values the &quot;in-process&quot; and the &quot;unfinished.&quot; The Skissernas Museum is literally a museum of sketches, housing an extensive collection of early drafts that reveal the beginnings of significant public artworks. Working between the Skissernas and MIT, Philbrick produced a &quot;Rammed Earth Sculpture Garden,&quot; now installed on the museum grounds; a fluorescent installation; a group of electronic drawings; and a handmade &quot;Exhibition Manual&quot; exhibition catalogue composed of texts contributed by MIT affiliates, soon to be available as a download from the websites of both the Skissernas and CAVS.
+    
+    Hours: Tues-Sun: 12-5pm; Wed: 12-9pm.</description>
+        <dc:creator>Center for Advanced Visual Studies</dc:creator>
+    
+        <dc:date>2009-09-21T12:00:00-04:00</dc:date>
+        <dc:subject>exhibits, visual arts</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11289263&amp;rss">
+        <title>Lunch Seminar for Grad Students</title>
+        <link>http://events.mit.edu/event.html?id=11289263&amp;rss</link>
+        <description>see website</description>
+        <dc:creator>Lunch Seminar for Grad Students, Mathematics, Department of</dc:creator>
+    
+        <dc:date>2009-09-21T12:00:00-04:00</dc:date>
+        <dc:subject>science/engineering</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11289154&amp;rss">
+        <title>Building Technology Lecture Series: Cost and Benefits of Double Skin Facades</title>
+        <link>http://events.mit.edu/event.html?id=11289154&amp;rss</link>
+        <description>COSTS AND BENEFITS OF DOUBLE SKIN FACADES
+    A case study of the design and construction process for an externally ventilated double skin facade for the University of Michigan Biomedical Science Research Bldg. The design process included extensive energy modeling, CFD analysis, value engineering, detailing design and control specifications. He will present a more general research project comparing the payback issues of double skin facades. The research included the wide variety capital costs as well as the variety of operational and maintenance costs and savings for 4 types of double skin facades in 5 climate types.
+        Byron Stigge leads the Sustainability Consulting group for the North America region of Buro Happold.  He has focused his engineering and design career on environmental building consulting with the UK-based firm Buro Happold since 1998 and has worked in their London, Bath and New York offices.  His passion for sustainable development of the built environment has offered him the opportunity to work on a wide range of projects around the world from city-scale sustainable master planning projects to LEED Platinum buildings to detailed systems and facade analysis projects.  Recent projects include: Orange County Great Park in Irvine, CA; Tellapur City, Hyderabad, India; CSOB Bank, Prague; Governors Island Strategic Plan, New York City; Genzyme Center, Cambridge, MA; Pole, Moscow; Lavasa, India; The World Trade Center Competition with &quot;Team Think&quot;.</description>
+        <dc:creator>Building Technology Program, Department of Architecture</dc:creator>
+    
+        <dc:date>2009-09-21T12:30:00-04:00</dc:date>
+        <dc:subject>lectures/conferences</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11289412&amp;rss">
+        <title>Special Lecture: &quot;Moving to the Ecological Age.&quot; - Peter Head Director, ARUP</title>
+        <link>http://events.mit.edu/event.html?id=11289412&amp;rss</link>
+        <description>An award winning civil and structural engineer, Peter Head is one of the world&#39;s most innovative thinkers about sustainable urban design, systems, and lifestyles.  In 2008 he was a Principal Voice on CNN and he was cited as one of 30 Global Eco-heroes by Time Magazine.
+    
+    Peter joined Arup in 2004 to create and lead their global planning and integrated urbanism team and now heads the practice globally.  He was appointed by the Mayor of  London as Commissioner of Sustainable Development and has directed planning for the Dongtan Eco-city in Shanghai and the Wanzhaung Eco-City near Beijing among many projects.  
+    
+    Peter will present his work and ideas in an informal talk and discussion.
+    
+    All welcome!</description>
+        <dc:creator>Department of Urban Studies and Planning</dc:creator>
+    
+        <dc:date>2009-09-21T12:30:00-04:00</dc:date>
+        <dc:subject>lectures/conferences</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11283600&amp;rss">
+        <title>Nuclear and Particle Theory Seminar</title>
+        <link>http://events.mit.edu/event.html?id=11283600&amp;rss</link>
+        <description>Quantization as a dimensional reduction phenomenon</description>
+        <dc:creator>Laboratory for Nuclear Science</dc:creator>
+    
+        <dc:date>2009-09-21T14:00:00-04:00</dc:date>
+        <dc:subject>science/engineering</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11285762&amp;rss">
+        <title>Undergraduate Admissions Office Information Session (Followed by Campus Tour)</title>
+        <link>http://events.mit.edu/event.html?id=11285762&amp;rss</link>
+        <description>Undergraduate Information Sessions are held Monday through Friday at 10:00am and 2:00pm in the Admissions Welcome Center in room 10-100. Following the Undergraduate Admissions Office Information Session is a Student Led Campus Tour. Groups over 10 people need to make special reservations.</description>
+        <dc:creator>Information Center, Admissions</dc:creator>
+    
+        <dc:date>2009-09-21T14:00:00-04:00</dc:date>
+        <dc:subject>campus tours</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11283140&amp;rss">
+        <title>Pass-Through as an Economic Tool</title>
+        <link>http://events.mit.edu/event.html?id=11283140&amp;rss</link>
+        <description>Pass-Through as an Economic Tool</description>
+        <dc:creator>MIT/Harvard IO Workshop</dc:creator>
+    
+        <dc:date>2009-09-21T14:30:00-04:00</dc:date>
+        <dc:subject>humanities/social sciences</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=10748441&amp;rss">
+        <title>Campus Tour</title>
+        <link>http://events.mit.edu/event.html?id=10748441&amp;rss</link>
+        <description>Student Led Campus Tours are approximately 90 minutes long and provide a general overview of the main campus. Please note that campus tours do not visit laboratories, living groups or buildings under construction. Groups over 12 people need to make special reservations. The Campus Tour begins in Lobby 7 (Main Entrance Lobby at 77 Massachusetts Ave)</description>
+        <dc:creator>Information Center</dc:creator>
+    
+        <dc:date>2009-09-21T15:00:00-04:00</dc:date>
+        <dc:subject>campus tours</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11289425&amp;rss">
+        <title>Probability Seminar</title>
+        <link>http://events.mit.edu/event.html?id=11289425&amp;rss</link>
+        <description>Double-dimer pairings and skew Young diagrams &lt;BR&gt; &lt;BR&gt; We study the number of tilings of skew Young diagrams by ribbon tiles shaped like Dyck paths, in which the tiles are ``vertically decreasing&#39;&#39;. We use these quantities to compute pairing probabilities in the double-dimer model.  Given a planar bipartite graph G with special vertices, called nodes, on the outer face, the double-dimer model is formed by the superposition of a uniformly random dimer configuration (perfect matching) of G together with a random dimer configuration of the graph formed from G by deleting the nodes. The double-dimer configuration consists of loops, doubled edges, and chains that start and end at the boundary nodes.  We are interested in how the chains connect the nodes.  An interesting special case is when the graph is epsilon (Z x N) and the nodes are at evenly spaced locations on R as the grid spacing epsilon goes to 0. &lt;BR&gt; &lt;BR&gt; Joint work with Rick Kenyon.</description>
+        <dc:creator>Mathematics, Department of</dc:creator>
+    
+        <dc:date>2009-09-21T15:00:00-04:00</dc:date>
+        <dc:subject>science/engineering</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11289406&amp;rss">
+        <title>Geometry Seminar</title>
+        <link>http://events.mit.edu/event.html?id=11289406&amp;rss</link>
+        <description>Symplectic reduction in stages and orbifold invariants
+    
+    Let M be a compact symplectic manifold endowed with a Hamiltonian torus action. I will discuss how to extend the well-known result that components of a moment map for the action are Morse-Bott functions on M to make arguments about the topology of a partial level set. This may be used to make conclusions about orbifold invariants of symplectic quotients. The talk will include many examples, including toric orbifolds and quotients of coadjoint orbits by subtori of the maximal torus.</description>
+        <dc:creator>Mathematics, Department of</dc:creator>
+    
+        <dc:date>2009-09-21T15:00:00-04:00</dc:date>
+        <dc:subject>lectures/conferences</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11289194&amp;rss">
+        <title>ANS Seminar:  Benefits of Space-Time Long Characteristics: Accuracy and Parallel Efficiency</title>
+        <link>http://events.mit.edu/event.html?id=11289194&amp;rss</link>
+        <description>Dr. Marv Adams, Professor of Nuclear Engineering and Director of
+    Institute for National Security Education and Research at Texas A&amp;M will present, &quot;Benefits of space-time long characteristics:  accuracy and parallel efficiency.&quot;  Refreshments at 3:15.
+    efficiency</description>
+        <dc:creator>Nuclear Science and Engineering, American Nuclear Society</dc:creator>
+    
+        <dc:date>2009-09-21T15:15:00-04:00</dc:date>
+        <dc:subject>lectures/conferences</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=10750076&amp;rss">
+        <title>Algebraic Topology Seminar</title>
+        <link>http://events.mit.edu/event.html?id=10750076&amp;rss</link>
+        <description>TBA</description>
+        <dc:creator>Algebraic Topology Seminar, Mathematics, Department of</dc:creator>
+    
+        <dc:date>2009-09-21T16:00:00-04:00</dc:date>
+        <dc:subject>science/engineering</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11283731&amp;rss">
+        <title>Estimating Welfare in Insurance Markets Using Variation in Prices</title>
+        <link>http://events.mit.edu/event.html?id=11283731&amp;rss</link>
+        <description>Estimating Welfare in Insurance Markets Using Variation in Prices</description>
+        <dc:creator>MIT Labor and Bradley Public Economics Seminar</dc:creator>
+    
+        <dc:date>2009-09-21T16:00:00-04:00</dc:date>
+        <dc:subject>humanities/social sciences</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11289333&amp;rss">
+        <title>The  Environmental  Fluid  Mechanics/Hydrology  Series</title>
+        <link>http://events.mit.edu/event.html?id=11289333&amp;rss</link>
+        <description>How to form biofilm streamers in a microfluidic channel
+    
+    Bacterial biofilms are commonly identified as microbial communities attached to a surface and encased in a self-secreted extracellular matrix. Due to their increased resistance to antimicrobial agents, biofilms have an enormous impact on health and medicine (e.g., wound healing, implant-associated infections, disease transmission). On the other hand, they constitute a major component of the stream ecosystem by increasing transient storage and retention of suspended particles. In this talk, we present an experimental study of bacterial biofilm development in a microfluidic device. In particular, we show the formation of filamentous structures, or streamers, in curved channels and how these suspended biofilms are linked to the underlying hydrodynamics.</description>
+        <dc:creator>Civil and Environmental Engineering</dc:creator>
+    
+        <dc:date>2009-09-21T16:00:00-04:00</dc:date>
+        <dc:subject>science/engineering</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11289006&amp;rss">
+        <title>Community Forum on Institute-wide Planning</title>
+        <link>http://events.mit.edu/event.html?id=11289006&amp;rss</link>
+        <description>Community members are invited to learn about and discuss the Preliminary Report of the Institute-wide Planning Task Force.</description>
+        <dc:creator>Chair of the Faculty</dc:creator>
+    
+        <dc:date>2009-09-21T16:00:00-04:00</dc:date>
+        <dc:subject>lectures/conferences</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11288836&amp;rss">
+        <title>Legatum Lecture: John Kufuor, President of Ghana 2001-2009</title>
+        <link>http://events.mit.edu/event.html?id=11288836&amp;rss</link>
+        <description>&quot;Entrepreneurship, Government, and Development in Africa&quot;
+    
+    Seating is limited and opens at 3:30pm</description>
+        <dc:creator>Legatum Center for Development and Entrepreneurship</dc:creator>
+    
+        <dc:date>2009-09-21T16:00:00-04:00</dc:date>
+        <dc:subject>business/entrepreneurship, global/international</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11283655&amp;rss">
+        <title>Ultra-high-throughput screening in drop-based microfluidics</title>
+        <link>http://events.mit.edu/event.html?id=11283655&amp;rss</link>
+        <description>The transformative discoveries required to solve urgent global problems, such as finding new drugs or environmentally-friendly energy sources, are ultimately limited by our ability to sift through vast numbers of samples. We introduce an ultra-high-throughput microfluidic screening platform using picoliter-volume emulsion drops as reaction vessels. We apply the system to the directed evolution of the enzyme horseradish  peroxidase and improve the catalytic rate by &amp;gt;10-fold. This unprecedented improvement in the activity of this enzyme was achieved with a one-thousand-fold reduction in time and a greater than one-million-fold reduction in cost compared to the previous state-of-the-art.</description>
+        <dc:creator>Chemistry</dc:creator>
+    
+        <dc:date>2009-09-21T16:00:00-04:00</dc:date>
+        <dc:subject>lectures/conferences</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11288426&amp;rss">
+        <title>A Balls-and-Bins Model of Trade</title>
+        <link>http://events.mit.edu/event.html?id=11288426&amp;rss</link>
+        <description>A Balls-and-Bins Model of Trade</description>
+        <dc:creator>MIT International Workshop</dc:creator>
+    
+        <dc:date>2009-09-21T16:15:00-04:00</dc:date>
+        <dc:subject>humanities/social sciences</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11289408&amp;rss">
+        <title>Applied Mathematics Colloquium</title>
+        <link>http://events.mit.edu/event.html?id=11289408&amp;rss</link>
+        <description>Title: Second Order Interfaces and Manipulation &lt;BR&gt;
+    Refreshments are available in Building 2, Room 290
+    (Math Common Room) between 3:30 - 4:30 PM</description>
+        <dc:creator>Mathematics, Department of</dc:creator>
+    
+        <dc:date>2009-09-21T16:30:00-04:00</dc:date>
+        <dc:subject>lectures/conferences</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11289372&amp;rss">
+        <title>Kita Gimel - Level 3 Intermediate Hebrew Class</title>
+        <link>http://events.mit.edu/event.html?id=11289372&amp;rss</link>
+        <description>Study Hebrew with a Native Hebrew speaker. This class is for students who have basic conversational skills (or at list understand some Hebrew) and know how to read.</description>
+        <dc:creator>Hillel (MIT), MIT - Israeli Association, MIT-Israel, MIT International Science and Technology Initiatives (MISTI)</dc:creator>
+    
+        <dc:date>2009-09-21T17:30:00-04:00</dc:date>
+        <dc:subject>lectures/conferences</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11289348&amp;rss">
+        <title>Hebrew lesson Kita Bet - level 2</title>
+        <link>http://events.mit.edu/event.html?id=11289348&amp;rss</link>
+        <description>This class will focus on basic useful phrases. A goal is to teach students to read signs and menus without nikkud (vowels), - just as it usually appears in Israel! This is a class for people who already know the Hebrew ABCs (aleph bet).</description>
+        <dc:creator>Hillel (MIT), MIT Israeli Association, MIT-Israel, MIT International Science and Technology Initiatives (MISTI)</dc:creator>
+    
+        <dc:date>2009-09-21T18:00:00-04:00</dc:date>
+        <dc:subject>lectures/conferences</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11286600&amp;rss">
+        <title>McKinsey &amp; Co. Presentation for non-MBA Masters</title>
+        <link>http://events.mit.edu/event.html?id=11286600&amp;rss</link>
+        <description>Join McKinsey &amp; Co. for an information session and reception to learn more McKinsey; the work, the people, their values, their culture and full-time opportunities across their offices. Brief presentation with reception to follow.</description>
+        <dc:creator>SEBC Consulting</dc:creator>
+    
+        <dc:date>2009-09-21T18:30:00-04:00</dc:date>
+        <dc:subject>business/entrepreneurship, career fairs/workshops</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=10749861&amp;rss">
+        <title>7 p.m. Argentine Tango</title>
+        <link>http://events.mit.edu/event.html?id=10749861&amp;rss</link>
+        <description>Simonida started her career as Argentine tango teacher, performer and choreographer in San Francisco. She has intensely studied tango in Buenos Aires exploring different styles with various world famous teachers, like Carlos Gavito and Gustavo Naveira. In addition to teaching group tango classes, workshops and private lessons, she has performed in various tango events in the US. A regular tango teacher in the Boston and Cambridge area. Previous training in ballet. In her teaching and performing, Simonida emphasizes delicacies of the feet placement, adornments, elegance, long lines, sensuality, and dramatic expression through contrast between dynamic moves and pauses. 
+    7-8 pm Beginners, 8-9 pm Intermediates</description>
+        <dc:creator>spouses&amp;partners@mit</dc:creator>
+    
+        <dc:date>2009-09-21T19:00:00-04:00</dc:date>
+        <dc:subject>interest clubs/groups</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11283275&amp;rss">
+        <title>Isshinryu karate practice</title>
+        <link>http://events.mit.edu/event.html?id=11283275&amp;rss</link>
+        <description>Come learn the basics of Isshinryu karate.  We focus on individual technique and form, and de-emphasize sparring and tournament-related activities.
+    
+    Beginners always welcome; all classes are free!</description>
+        <dc:creator>Isshinryu Karate-do at MIT</dc:creator>
+    
+        <dc:date>2009-09-21T19:00:00-04:00</dc:date>
+        <dc:subject>athletics, recreation</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11286599&amp;rss">
+        <title>McKinsey &amp; Co. Presentation for Undergraduates &amp; MEngs</title>
+        <link>http://events.mit.edu/event.html?id=11286599&amp;rss</link>
+        <description>Join McKinsey &amp; Co. for an information session and reception to learn more about McKinsey; the work, the people, their values, their culture and full-time opportunities across their offices. Brief presentation with reception to follow.</description>
+        <dc:creator>SEBC Consulting</dc:creator>
+    
+        <dc:date>2009-09-21T19:00:00-04:00</dc:date>
+        <dc:subject>business/entrepreneurship, career fairs/workshops</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=10003454&amp;rss">
+        <title>Kokikai Aikido practice</title>
+        <link>http://events.mit.edu/event.html?id=10003454&amp;rss</link>
+        <description>Kokikai Aikido practice. Beginners are welcome!</description>
+        <dc:creator>Kokikai Aikido</dc:creator>
+    
+        <dc:date>2009-09-21T19:30:00-04:00</dc:date>
+        <dc:subject>sports, recreation</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11289451&amp;rss">
+        <title>SUMA Freshman Study Break</title>
+        <link>http://events.mit.edu/event.html?id=11289451&amp;rss</link>
+        <description>SUMA Freshman Study Break</description>
+        <dc:creator>SUMA</dc:creator>
+    
+        <dc:date>2009-09-21T19:30:00-04:00</dc:date>
+        <dc:subject>business/entrepreneurship</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11288949&amp;rss">
+        <title>Change Ringing Practice (Hand Bells)</title>
+        <link>http://events.mit.edu/event.html?id=11288949&amp;rss</link>
+        <description>Change ringing is a style of bell ringing developed for large church bells in Britain several hundred years ago. It does not involve ringing a melody on the bells, but rather permuting the order of sounding the bells according to formal rules called methods. You don&#39;t need any musical skill or experience to learn change ringing. If you enjoy working with numerical patterns, chances are this will be an enjoyable activity for you! We are always looking for new ringers and would be glad to teach you to ring.</description>
+        <dc:creator>Guild of Bellringers</dc:creator>
+    
+        <dc:date>2009-09-21T19:30:00-04:00</dc:date>
+        <dc:subject>music</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=11286677&amp;rss">
+        <title>MIT Ballroom Dance Club Workshops</title>
+        <link>http://events.mit.edu/event.html?id=11286677&amp;rss</link>
+        <description>Come learn how to ballroom dance!</description>
+        <dc:creator>MIT Ballroom Dance Club</dc:creator>
+    
+        <dc:date>2009-09-21T19:30:00-04:00</dc:date>
+        <dc:subject>dance, interest clubs/groups</dc:subject>
+      </item>
+      <item rdf:about="http://events.mit.edu/event.html?id=8228038&amp;rss">
+        <title>Trivia</title>
+        <link>http://events.mit.edu/event.html?id=8228038&amp;rss</link>
+        <description>Show off your brains and compete for some of the best prizes in town, including movie tickets and restaurant gift certificates! &lt;P&gt;The Thirsty Ear Pub is located in the Ashdown House.  Please enter through the building&#39;s lobby.  21+, proper ID required.</description>
+        <dc:creator>The Thirsty Ear Pub</dc:creator>
+    
+        <dc:date>2009-09-21T20:00:00-04:00</dc:date>
+        <dc:subject>social</dc:subject>
+      </item>
+    
+    </rdf:RDF>
+    
+    
+    
+  :link: http://events.mit.edu/
+  :href: http://events.mit.edu/rss/
+  :last_retrieved: 2009-09-21 08:20:14.533137 Z
+  :title: MIT Events Calendar
+  :id: 1

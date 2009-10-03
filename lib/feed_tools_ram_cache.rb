@@ -37,8 +37,7 @@ class RamFeedCache
   
   # Removes all the cache items.
   def self.clear
-    @by_id, @by_href = nil, nil
-    initialize_cache    
+    # NOTE: Actual implementation supplied in offline_mode=.
   end
   
   # The number of entries in the cache.
@@ -80,6 +79,46 @@ class RamFeedCache
   def new_record?
     @fields[:id].nil? ? true : false
   end
+  
+  # Enters or exits offline testing mode.
+  #
+  # In offline testing mode, cache clearing requests are ignored, and items
+  # pretend that they are fresh. Warning: this means items won't pretend like
+  # dumb ActiveRecord objects, and may fail unit tests that treat them as such.
+  def self.offline_mode=(offline)
+    if offline  # Pretend items are live to stay offline.
+      undef :last_retrieved, :time_to_live
+      def last_retrieved
+        Time.now
+      end
+      def time_to_live
+        86400  # A day since last_retrieved was read, should avoid re-fetching.
+      end      
+      
+      class <<self
+        undef :clear
+        def clear
+          initialize_cache
+        end
+      end
+    else  # Going online is OK, don't lie about the cache state.
+      undef :last_retrieved, :time_to_live
+      def last_retrieved
+        @fields[:last_retrieved]
+      end
+      def time_to_live
+        @fields[:time_to_live]
+      end      
+      class <<self
+        undef :clear
+        def clear
+          @by_id, @by_href = nil, nil
+          initialize_cache
+        end
+      end
+    end
+  end
+  self.offline_mode = false
   
   # Called by FeedTools to initialize the cache.
   def self.initialize_cache

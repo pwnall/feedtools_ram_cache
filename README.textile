@@ -43,6 +43,22 @@ clean slate for testing.
 
 bc. FeedTools::RamFeedCache.clear
 
+h3. Offline Testing Mode
+
+One-line summary: use the following in your unit tests.
+
+bc. FeedTools::RamFeedCache.offline_mode = true
+
+The RAM-backed cache can be used for testing as follows. Test data is generated
+by clearing the cache, opening the feed to be tested, and saving the cache's
+state (perhaps by serializing to a YAML file). Testing code sets the cache state
+to the saved state, and opens the feed again.
+
+This strategy has the following issues: the code to be tested may clear the
+cache (my code does), and FeedTools will not use the cached data to see if it's
+stale. While the cache is in offline mode, it ignores clearing requests, and it
+pretends its items are fresh.
+
 h2. Naming Convention
 
 The naming scheme for this gem is confusing, but it is consistent with the
